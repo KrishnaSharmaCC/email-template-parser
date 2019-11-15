@@ -1,0 +1,234 @@
+
+<!-- Note: This is the devlopment template used for building the templates easily using classes. -->
+
+<!-- Simply using this template won't work. We would need to inline the class stylings so as to make it compatible with email clients -->
+
+<!-- We can use inliner tools like https://htmlemail.io/inline/ to inline this html file. -->
+
+<!-- The actual (inlined) templates are stored in `/Inlined templates` folder. -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+  <head>
+    <title>Just one more step and your ad is live</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    <style>
+      .footer-link {
+        font-size: 12px;
+        color: #232a31;
+      }
+      @media (min-device-width: 767px) {
+        .container-width {
+          max-width: 536px !important;
+        }
+        .adBuilder-Logo {
+          width: 160px !important;
+          height: 28px !important;
+        }
+        .advertiser-details {
+          font-size: 14px !important;
+          line-height: 1.43 !important;
+        }
+        .banner {
+          height: 128px !important;
+        }
+        .banner-message {
+          font-size: 32px !important;
+          line-height: 1.25 !important;
+          padding: 22px 72px 26px !important;
+        }
+        .email-body {
+          font-size: 18px !important;
+          line-height: 1.56 !important;
+        }
+        .info-banner {
+          padding-left: 20px !important;
+        }
+        .info-logo {
+          width: 40px !important;
+          height: 40px !important;
+        }
+        .info-text {
+          font-size: 20px !important;
+          line-height: 1.4 !important;
+          padding-left: 16px !important;
+        }
+        .button-dark,
+        .button-light {
+          padding: 10px 0px !important;
+          min-width: 208px !important;
+          border-radius: 31px !important;
+          font-size: 20px !important;
+          line-height: 1.4 !important;
+        }
+        .button-dark {
+          margin-right: 20px !important;
+        }
+        .buttons-wrapper {
+          margin: 48px auto 88px !important;
+        }
+        .breakline {
+          width: 100% !important;
+          background: #232a31 !important;
+        }
+        .help-wrapper {
+          margin-bottom: 60px !important;
+        }
+        .help-heading {
+          font-size: 32px !important;
+          line-height: 1.25 !important;
+        }
+        .help-content {
+          padding: 24px 0px 0px 0px !important;
+        }
+        .customer-support {
+          width: 120px !important;
+          height: 120px !important;
+        }
+        .help-items {
+          font-size: 18px !important;
+          margin: 6px auto !important;
+          padding-left: 12px !important;
+        }
+        .footer-link {
+          font-size: 16px !important;
+        }
+        .confirmEmail {
+          min-width: 536px !important;
+          width: 100% !important;
+          height: 92px !important;
+        }
+        .confirmEmailLink {
+          font-size: 14px !important;
+          line-height: 1.43 !important;
+          letter-spacing: normal !important;
+        }
+      }
+    </style>
+  </head>
+  <body style="margin: 0px; padding: 15px 0px; font-family: Arial, Helvetica, sans-serif;">
+    <table cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%" style="font-family: Arial, Helvetica, sans-serif; border-collapse: collapse;">
+      <tr>
+        <td align="center" valign="top">
+          <table cellpadding="0" cellspacing="0" class="container-width" style="font-family: Arial, Helvetica, sans-serif; min-width: 335px; max-width: 536px;">
+            <tr>
+              <td valign="top">
+                <table cellpadding="0" cellspacing="0" width="100%" style="font-family: Arial, Helvetica, sans-serif;">
+                  <tr>
+                    <td align="left">
+                      <a href="https://www.ad.com/" target="_blank">
+                        <img alt="Ad.com" src="https://s.yimg.com/av/static/gemini-lite-email/png/ad-builder-logo.png" class="adBuilder-Logo" style="width: 91.4px; height: 16px; display: block;" width="91.4" height="16">
+                      </a>
+                    </td>
+                    <td class="advertiser-details" align="right" style="font-size: 10px; line-height: 1.2; color: #464e56;">
+                      Account Name: {advertiserName}<br>
+                      Account ID: {advertiserId}
+                    </td>
+                  </tr>
+                </table>
+                <br>
+                <table cellpadding="0" cellspacing="0" bgcolor="#ffffff" class="container-width" style="font-family: Arial, Helvetica, sans-serif; min-width: 335px; max-width: 536px;">
+
+                  <!--Banner message -->
+                  <tr class="banner" align="center" style="background-color: #232a31; color: #ffffff; height: 48px;" bgcolor="#232a31">
+                    <td class="banner-message text-bold" style="font-family: Arial, Helvetica, sans-serif; font-weight: bolder; font-size: 18px; line-height: 1.33; padding: 12px 52px;">
+                      Enter your billing info for your ad to go live
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3">
+                      <br>
+                      <div class="email-body" style="font-size: 14px; line-height: 1.43; color: #232a31;">
+                        <p>
+                          Your ad is almost live, finish the last step and reach more customers
+                          for your business!
+                        </p>
+                        <table style="font-family: Arial, Helvetica, sans-serif;">
+                          <tr>
+                            <td valign="center" class="info-banner" style="padding-left: 14px;">
+                              <img class="info-logo" src="https://s.yimg.com/av/static/gemini-lite-email/png/billing.png" alt="missing-billing-info" align="center" style="width: 30px; height: 30px; display: inline-block;" width="30" height="30">
+                            </td>
+                            <td>
+                              <p class="info-text text-medium" style="font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 16px; line-height: normal; padding-left: 9px;">
+                                Enter the billing information
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <p class="buttons-wrapper" style="text-align: center; margin: 28px auto 56px;">
+                          <a class="button-dark text-medium" target="_blank" href="https://www.ad.com/payments" style="font-family: Arial, Helvetica, sans-serif; font-weight: bold; padding: 8px 0px; min-width: 149px; border-radius: 31px; border: solid 1px #b9bdc5; text-decoration: none; font-size: 16px; line-height: 1.6; display: inline-block; background-color: #232a31; color: #ffffff; margin-right: 20px;">Add Payment</a>
+                        </p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3"></td>
+                  </tr>
+                </table>
+
+                <!-- Need help -->
+                <table class="help-wrapper" cellspacing="0" cellpadding="0" width="100%" style="font-family: Arial, Helvetica, sans-serif; margin-bottom: 56px;">
+                  <tr align="center">
+                    <td colspan="2" class="help-heading text-bold" style="font-family: Arial, Helvetica, sans-serif; font-weight: bolder; font-size: 20px; line-height: 1.4;">
+                      Need help?
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="help-content" style="padding: 12px 0px 0px 0px;">
+                      <img class="customer-support" src="https://s.yimg.com/av/static/gemini-lite-email/jpg/custome_support.jpg" alt="customer-support" style="width: 80px; height: 80px;" width="80" height="80">
+                    </td>
+                    <td class="help-content" style="padding: 12px 0px 0px 0px;">
+                      <p class="help-items" style="font-size: 14px; margin: 6px auto; padding-left: 16px; line-height: 1.43;">
+                        <a target="_blank" href="https://www.ad.com/faq" style="text-decoration: inherit; color: inherit;">
+                          📘 Help & support guide
+                        </a>
+                      </p>
+                      <p class="help-items" style="font-size: 14px; margin: 6px auto; padding-left: 16px; line-height: 1.43;">
+                        <a target="_blank" href="https://www.ad.com/contact-us" style="text-decoration: inherit; color: inherit;">
+                          💬 Contact us
+                        </a>
+                      </p>
+                      <p class="help-items" style="font-size: 14px; margin: 6px auto; padding-left: 16px; line-height: 1.43;">
+                        <a href="mailto:ads.support@verizonmedia.com" style="text-decoration: inherit; color: inherit;">
+                          💌 Email us at ads.support@verizonmedia.com
+                        </a>
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- Need help component ends here -->
+
+                <!-- Section divider -->
+                <table cellspacing="0" cellpadding="0" class="breakline" style="font-family: Arial, Helvetica, sans-serif; width: 100%; background: #232a31;" width="100%">
+                  <tr>
+                    <td height="1"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <table cellpadding="0" cellspacing="0" class="container-width" style="font-family: Arial, Helvetica, sans-serif; min-width: 335px; max-width: 536px;">
+              <tr>
+                <td>
+                  <br><a target="_blank" href="https://policies.oath.com/us/en/oath/privacy/index.html" class="footer-link" style="font-size: 12px; color: #232a31;"><strong>Privacy Policy</strong></a>
+                  |
+                  <a target="_blank" href="https://policies.oath.com/us/en/oath/terms/advertising/masterterms/masterterms-322/index.html" class="footer-link" style="font-size: 12px; color: #232a31;"><strong>Terms of Service</strong></a>
+                  |
+                  <a target="_blank" href="https://www.ad.com/help" class="footer-link" style="font-size: 12px; color: #232a31;"><strong>Help</strong></a><br>
+                  <p class="footer-text" style="font-size: 12px; color: #464e56;">
+                    Copyright &#169;2019 Verizon Media. All rights reserved.<br>
+                    <br>
+                    This is an automated notice. Replies to this address will not be
+                    received. For your protection, Verizon Media will never ask you to
+                    provide your billing information via email.
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
